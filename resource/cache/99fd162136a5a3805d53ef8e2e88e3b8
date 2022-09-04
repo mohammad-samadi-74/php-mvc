@@ -1,0 +1,16 @@
+<?php $__env->startSection('content'); ?>
+    <div class=" text-center border mt-4">
+        <?php echo e(showErrors()); ?>
+
+
+        <div class="card-header">
+            <h4>Home Page </h4>
+
+        </div>
+        <div class="card-body">
+            <p>Welcome To Our Simple Free Mvc Project</p>
+        </div>
+    </div>
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('layouts.app', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

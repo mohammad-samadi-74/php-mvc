@@ -1,0 +1,28 @@
+{
+    "name": "milad/oop",
+    "autoload": {
+        "files": [
+            "./App/Helpers.php"
+        ],
+        "psr-4": {
+            "App\\": "App/"
+        }
+    },
+    "authors": [
+        {
+            "name": "milad",
+            "email": "mohammadsamadi1374@gmail.com"
+        }
+    ],
+    "require": {
+      "ext-pdo": "*",
+        "nesbot/carbon": "^2.58",
+        "plasticbrain/php-flash-messages": "^1.0",
+        "philo/laravel-blade": "^3.",
+        "illuminate/events": "v5",
+        "illuminate/view": "v5",
+        "vlucas/phpdotenv": "^5.4",
+        "phpmailer/phpmailer": "^6.6",
+        "doctrine/migrations": "^3.5"
+    }
+}
